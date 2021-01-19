@@ -1,13 +1,9 @@
-sudo apt-get install bzip2 -y
 sudo apt-get install cmake -y
-sudo apt-get install flex -y
 sudo apt-get install g++ -y
 sudo apt-get install g++-multilib -y
 sudo apt-get install git -y
 sudo apt-get install libogg-dev -y
 sudo apt-get install libvorbis-dev -y
-sudo apt-get install libc6-dev-i386 -y
-sudo apt-get install libsdl-dev -y
 sudo apt-get install libsdl2-dev -y
 sudo apt-get install libssl-dev -y
 sudo apt-get install libiconv-dev -y
