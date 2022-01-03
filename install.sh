@@ -7,7 +7,7 @@ sudo apt-get install libvorbis-dev -y
 sudo apt-get install libsdl2-dev -y
 sudo apt-get install libssl-dev -y
 sudo apt-get install libiconv-dev -y
-sudo apt-get install libgl-mesa-dev -y
+sudo apt-get install libgl1-mesa-dev -y
 sudo apt-get install libarchive-dev -y
 sudo apt-get install libpng-dev -y
 sudo apt-get install zlib1g-dev -y
