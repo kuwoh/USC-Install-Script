@@ -1,23 +1,23 @@
-sudo apt-get install cmake -y
-sudo apt-get install g++ -y
-sudo apt-get install g++-multilib -y
-sudo apt-get install git -y
-sudo apt-get install libogg-dev -y
-sudo apt-get install libvorbis-dev -y
-sudo apt-get install libsdl2-dev -y
-sudo apt-get install libssl-dev -y
-sudo apt-get install libiconv-dev -y
-sudo apt-get install libgl1-mesa-dev -y
-sudo apt-get install libarchive-dev -y
-sudo apt-get install libpng-dev -y
-sudo apt-get install zlib1g-dev -y
-sudo apt-get install libjpeg-dev -y
-sudo apt-get install libfreetype6-dev -y
-sudo apt-get install lzip -y
-sudo apt-get install make -y
-sudo apt-get install openssl -y
-sudo apt-get install python -y
-git clone https://github.com/Drewol/unnamed-sdvx-clone/
+apt install cmake -y
+apt install g++ -y
+apt install g++-multilib -y
+apt install git -y
+apt install libogg-dev -y
+apt install libvorbis-dev -y
+apt install libsdl2-dev -y
+apt install libssl-dev -y
+apt install libiconv-dev -y
+apt install libgl1-mesa-dev -y
+apt install libarchive-dev -y
+apt install libpng-dev -y
+apt install zlib1g-dev -y
+apt install libjpeg-dev -y
+apt install libfreetype6-dev -y
+apt install lzip -y
+apt install make -y
+apt install openssl -y
+apt install python -y
+git clone -b master https://github.com/Drewol/unnamed-sdvx-clone/
 cd unnamed-sdvx-clone
 git submodule update --init --recursive
 cmake -DCMAKE_BUILD_TYPE=Release
