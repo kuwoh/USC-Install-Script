@@ -1,3 +1,5 @@
+apt update
+apt upgrade
 apt install cmake -y
 apt install g++ -y
 apt install g++-multilib -y
